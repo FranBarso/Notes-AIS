@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "263744f7c43bdc1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7423f379ae5f4494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69229fa07a824f16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local O'clock AIS/Boc A (1-5)/Saison A1 (Savoirs de Base)/Cryptographie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptographie"
+            }
+          },
+          {
+            "id": "d215485d6a743883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)/Saison B3 (Supervision).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Saison B3 (Supervision)"
+            }
+          },
+          {
+            "id": "9a34f45086c4bae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/BIOS-UEFI Challenge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIOS-UEFI Challenge"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41123ed6828125a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "79be806a773f491b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46936ccfff0970b8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d2ac36d1a47e8b5a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "5acb78ab5b52ec57",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dad511257c9d660a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e192052c171835a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05619925cdc17586",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/BIOS-UEFI Challenge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for BIOS-UEFI Challenge"
+            }
+          },
+          {
+            "id": "6b4a2f883b52608f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "952d16aee4f0c933",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "047d445ed275e68a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "O'clock AIS/Cours du 21-10-2025.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Cours du 21-10-2025"
+            }
+          },
+          {
+            "id": "3d8615b1a93d9e60",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9a34f45086c4bae3",
+  "lastOpenFiles": [
+    "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/A103 - Histoire de l'informatique et internet.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/A1 (Savoirs de base).md",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)/SB301 - Supervision & Monitoring.md",
+    "README.md",
+    "temptest/README.md",
+    "temptest",
+    "Assets/Attachments/Pasted image 20260119151035.png",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)/Saison B3 (Supervision).md",
+    "Assets/Attachments/Pasted image 20260119140521.png",
+    "Assets/Attachments/Pasted image 20260119140450.png",
+    "Assets/Attachments/Pasted image 20260119140421.png",
+    "Assets/Attachments/Pasted image 20260119135413.png",
+    "Assets/Attachments/Pasted image 20260119135249.png",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B2 (Stockage & Sauvegarde)/B201 - Sauvegarde & stockage_DAS, NAS, SAN.md",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B2 (Stockage & Sauvegarde)/Saison B2 (Stockage & Sauvegarde).md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/Réseaux - Introduction.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/RFC1918, NAT & self-hosting.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/SLACC, DHCPv6 & cohabitation.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/Wi-Fi, VLAN, L3 Switches & IPv6.md",
+    "Assets/Attachments/Pasted image 20260112134146.png",
+    "Assets/Attachments/Pasted image 20260112120622.png",
+    "Assets/Attachments/Pasted image 20260112120609.png",
+    "Assets/Attachments/Pasted image 20260112120549.png",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B1 (Virtualisation)/B101 - La Virtualisation.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/Migration Win10 vers Win11.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/CMD et PowerShell et Exécuter.md",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B1 (Virtualisation)/Saison B1 (Virtualisation).md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/A503 - Utilisateurs, groupes, fichiers et permissions.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/A502 - Linux Shell.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/A501 - Linux origines.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/Cryptographie.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/A504 - Paquets, compilations.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/Saison A5 (GNU-Linux).md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/Saison A4 (Windows Serveur).md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/Azure & Cloud.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/VDI & Hyper-V.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/RDS.md",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C6 (Révisions-Prépa TP)",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C5 (Pentesting)",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C4 (Conteneurs & orchestration)",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C3 (Sécurité systèmes & réseaux)",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C2 (Cloud)",
+    "Local O'clock AIS/Bloc C (1-6)/Saison C1 (Gestion de projet et analyses de risques)",
+    "Local O'clock AIS/Bloc C (1-6)",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B4 (Scripting)",
+    "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)",
+    "Sans titre.canvas",
+    "Note 1_Create a note.canvas",
+    "O'clock AIS/Sans titre.canvas"
+  ]
+}

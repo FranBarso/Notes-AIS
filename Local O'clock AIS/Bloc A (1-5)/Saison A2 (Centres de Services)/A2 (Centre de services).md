@@ -1,0 +1,7 @@
+* [[Outils bureautiques]]
+* Résolution de problèmes Hardware / Software [[Diagnostic et résolution d'incidents]]
+* Diagnostic, démarche d'analyse et de résolution de problèmes [[Prise en main à distance & Hardware]] + [[Réparation & Réglementation]]
+* [[BIOS, UEFI...]] + [[BIOS-UEFI Challenge]]
+* Pratiques ITIL [[ITIL V4]] + [[ITIL V4 Partie 2]] 
+* Prise en main à distance [[GLPI & Les Principes d'ITIL]]
+* Outils de ticketing [[ITIL & GLPI_Challenge]]
