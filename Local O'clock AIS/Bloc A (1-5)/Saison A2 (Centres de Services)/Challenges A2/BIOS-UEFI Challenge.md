@@ -1,4 +1,4 @@
-# Challenge SA2-E06 : [[BIOS, UEFI...]]
+# Challenge SA2-E06 : [BIOS, UEFI...](BIOS,%20UEFI....md)
 
 - Accédez au BIOS de votre ordinateur, et explorez les différentes pages, sections et réglages proposés !
 
@@ -30,7 +30,7 @@ Une fois dans le menu bleu, choisir **Dépannage** > **Options avancées** > **P
 
 J’ai toujours pensé que j’avais un BIOS, mais avec cette exercice je me suis rendu compte que c’est un UEFI, selon le Boot Mode ci-dessous (désolé pour la qualité des images) :
 
-![[Pasted image 20251031134556.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031134556.png|Pasted image 20251031134556.png]]
 
 Tout ce que je ne comprends pas se trouve sur :
 
@@ -54,7 +54,7 @@ Keyboard backlight timeout
 
 Fast Boot
 
-![[Pasted image 20251031134631.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031134631.png|Pasted image 20251031134631.png]]
 
 ### 1.2.           Security (tout ce qui est password)
 
@@ -84,7 +84,7 @@ Change TPM (TCM) State
 
 Clear TPM (TCM)
 
-![[Pasted image 20251031134707.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031134707.png|Pasted image 20251031134707.png]]
 
 ## Partie 2 : Modifications sur la clé USB
 
@@ -92,35 +92,35 @@ Clear TPM (TCM)
 
 Par défaut, elle est déjà en système de fichier Fat32, comme nous pouvons le constater dans « Gestion des disques » :
 
-![[Pasted image 20251031135154.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031135154.png|Pasted image 20251031135154.png]]
 
 Si je la formate (encore) en Fat32, rien ne change :
 
-![[Pasted image 20251031135117.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031135117.png|Pasted image 20251031135117.png]]
 
 J’essaie de voir ses volumes (pour savoir son type de partitions -MBR ou GPT-) mais tout est blanc :
 
-![[Pasted image 20251031135308.png#center]]
+![[../../../../Assets/Attachments/Pasted image 20251031135308.png#center|Pasted image 20251031135308.png > center]]
 
 Alors, je me rends sur « **Diskpart** » pour regarder plus loin : Ma clé USB (Disque 3) n’est pas partitionnée en **GPT** (absence d’étoile en fin de ligne de sa description) :
 
-![[Pasted image 20251031135446.png#center]]
+![[../../../../Assets/Attachments/Pasted image 20251031135446.png#center|Pasted image 20251031135446.png > center]]
 
 Donc je fais la conversion de **MBR** à **GPT** :
 
-![[Pasted image 20251031135524.png#center]]
+![[../../../../Assets/Attachments/Pasted image 20251031135524.png#center|Pasted image 20251031135524.png > center]]
 
 La conversion à GPT a fait disparaître la clé USB de la liste de disques :
 
-![[Pasted image 20251031135559.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031135559.png|Pasted image 20251031135559.png]]
 
 Alors, je refais la conversion de GPT à MBR sur diskpart, pour pouvoir procéder à **formater** le système de fichier en **NTFS** et constater le résultat sur la liste de disques :
 
-![[Pasted image 20251031135635.png#center]]
+![[../../../../Assets/Attachments/Pasted image 20251031135635.png#center|Pasted image 20251031135635.png > center]]
 
 Pour que la clé apparaisse
 
-![[Pasted image 20251031140752.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031140752.png|Pasted image 20251031140752.png]]
 
 ### 2.2. Création de plusieurs partitions :
 
@@ -128,32 +128,32 @@ Pour que la clé apparaisse
 
 Une fois la clé USB récupérée, j’ai « **réduit le volume** » à partir de Gestion des disques (après formatage, elle a changé à G : et la partition est devenue F : ).
 
-![[Pasted image 20251031140926.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031140926.png|Pasted image 20251031140926.png]]
 ### 2.3. Lecture clé USB sur VirtualBox
 
 ### Sur Windows 11 VM
 
 Je démarre ma VM pour chercher le périphérique en question : Périphériques > USB > sélection
 
-![[Pasted image 20251031140959.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031140959.png|Pasted image 20251031140959.png]]
 ### Sur Debian 13 VM
 
 Même procédure qu’avec Windows 11
 
-![[Pasted image 20251031141036.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031141036.png|Pasted image 20251031141036.png]]
 
 ### Récupération du volume et la partition d’origine de la clé USB
 
 Supprimer volume > Nouveau volume simple
 
-![[Pasted image 20251031141153.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031141153.png|Pasted image 20251031141153.png]]
 
 Même opération avec (F : ) pour lui attribuer le même système fichier (Fat32)
 
-![[Pasted image 20251031141257.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031141257.png|Pasted image 20251031141257.png]]
 
 Et même procédure « diskpart » en tant qu’**administrateur de l’invite de commandes** (**cmd**) :
 
-![[Pasted image 20251031141341.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031141341.png|Pasted image 20251031141341.png]]
 
-![[Pasted image 20251031141407.png]]
+![[../../../../Assets/Attachments/Pasted image 20251031141407.png|Pasted image 20251031141407.png]]

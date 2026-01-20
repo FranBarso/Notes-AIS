@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "attachmentFolderPath": "Assets/Attachments"
+  "attachmentFolderPath": "Assets/Attachments",
+  "useMarkdownLinks": true
 }
