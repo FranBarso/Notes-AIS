@@ -22,16 +22,19 @@ Astuce : pensez à tester votre configuration en créant puis en supprimant le f
 ## Étape 2 : Création d’un item « existence du fichier »
 
 Dans Zabbix : `Data Collection → Hosts → la VM Win → Items → Create item``
+
 <img width="408" height="251" alt="image" src="https://github.com/user-attachments/assets/4f1977bd-4d33-42d8-b3c3-ec5809d38d46" />
 
  **📖** Sélection de la clé à partir de la [**Ressources**](https://www.zabbix.com/documentation/current/en/manual/config/items/itemtypes/zabbix_agent) (Doc pour Agent 1, Passif).
 
 Vérification de l’item sur `Monitoring → Latest data``
+
 <img width="412" height="236" alt="image" src="https://github.com/user-attachments/assets/4c765eb1-efd0-4b0a-83b0-2671a4f281fc" />
 
 ## Étape 3 : Création d’un trigger (problème en cas d’absence)
 
 Dans Zabbix : `Data Collection → Hosts → la VM Win → Triggers → Create trigger`
+
 <img width="408" height="189" alt="image" src="https://github.com/user-attachments/assets/5e30aa87-2362-4034-89fb-7a4720cdc922" />
 
 ## Étape 4 : Test d’alerte
