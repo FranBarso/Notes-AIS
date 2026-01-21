@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "9a34f45086c4bae3",
+            "id": "644714034bc85ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/BIOS-UEFI Challenge.md",
+                "file": "Challenge SB03E03 - Supervision réseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIOS-UEFI Challenge"
+              "title": "Challenge SB03E03 - Supervision réseau"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/BIOS-UEFI Challenge.md",
+                "file": "Challenge SB03E03 - Supervision réseau.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BIOS-UEFI Challenge"
+              "title": "Backlinks for Challenge SB03E03 - Supervision réseau"
             }
           },
           {
@@ -209,10 +209,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a34f45086c4bae3",
+  "active": "644714034bc85ec6",
   "lastOpenFiles": [
-    "Local O'clock AIS/Correction Atelier S02 Mme Michou.pdf",
+    "Assets/Attachments/Pasted image 20260121205356.png",
+    "Assets/Attachments/Pasted image 20260121205321.png",
+    "Assets/Attachments/Pasted image 20260121205237.png",
+    "Assets/Attachments/Pasted image 20260121205210.png",
+    "Assets/Attachments/Pasted image 20260121205159.png",
+    "Challenge SB03E03 - Supervision réseau.md",
+    "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/ITIL & GLPI_Challenge.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A2 (Centres de Services)/Challenges A2/BIOS-UEFI Challenge.md",
+    "Local O'clock AIS/Correction Atelier S02 Mme Michou.pdf",
     "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/A103 - Histoire de l'informatique et internet.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/A1 (Savoirs de base).md",
     "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)/SB301 - Supervision & Monitoring.md",
@@ -232,10 +239,6 @@
     "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/RFC1918, NAT & self-hosting.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/SLACC, DHCPv6 & cohabitation.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A3 (Réseaux)/Wi-Fi, VLAN, L3 Switches & IPv6.md",
-    "Assets/Attachments/Pasted image 20260112134146.png",
-    "Assets/Attachments/Pasted image 20260112120622.png",
-    "Assets/Attachments/Pasted image 20260112120609.png",
-    "Assets/Attachments/Pasted image 20260112120549.png",
     "Local O'clock AIS/Bloc B (1-4)/Saison B1 (Virtualisation)/B101 - La Virtualisation.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/Migration Win10 vers Win11.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/CMD et PowerShell et Exécuter.md",
@@ -246,8 +249,6 @@
     "Local O'clock AIS/Bloc A (1-5)/Saison A1 (Savoirs de Base)/Cryptographie.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/A504 - Paquets, compilations.md",
     "Local O'clock AIS/Bloc A (1-5)/Saison A5 (GNU-Linux)/Saison A5 (GNU-Linux).md",
-    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/Saison A4 (Windows Serveur).md",
-    "Local O'clock AIS/Bloc A (1-5)/Saison A4 (Windows Serveur)/Azure & Cloud.md",
     "Local O'clock AIS/Bloc C (1-6)/Saison C6 (Révisions-Prépa TP)",
     "Local O'clock AIS/Bloc C (1-6)/Saison C5 (Pentesting)",
     "Local O'clock AIS/Bloc C (1-6)/Saison C4 (Conteneurs & orchestration)",
@@ -256,7 +257,6 @@
     "Local O'clock AIS/Bloc C (1-6)/Saison C1 (Gestion de projet et analyses de risques)",
     "Local O'clock AIS/Bloc C (1-6)",
     "Local O'clock AIS/Bloc B (1-4)/Saison B4 (Scripting)",
-    "Local O'clock AIS/Bloc B (1-4)/Saison B3 (Supervision)",
     "Sans titre.canvas",
     "Note 1_Create a note.canvas",
     "O'clock AIS/Sans titre.canvas"
