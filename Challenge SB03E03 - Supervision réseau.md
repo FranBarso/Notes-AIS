@@ -17,7 +17,7 @@ Si l’utilisateur supprime le fichier :
 
 Astuce : pensez à tester votre configuration en créant puis en supprimant le fichier pour vérifier que le comportement correspond bien à la consigne.
 ## Étape 1 : Création du fichier sur Windows C\ :
-![Assets/Attachments/Pasted image 20260121205210.png|Pasted image 20260121205210.png]
+![Assets/Attachments/Pasted image 20260121205210.png]
 ## Étape 2 : Création d’un item « existence du fichier »
 
 Dans Zabbix : `Data Collection → Hosts → la VM Win → Items → Create item``
