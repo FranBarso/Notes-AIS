@@ -1,4 +1,4 @@
-# :Computer: **Challenge B303: Supervision réseau**
+# :computer: **Challenge B303: Supervision réseau**
 
 **Objectif :**
 Mettre en place une alarme dans Zabbix qui doit se déclencher uniquement si le fichier test.txt n’existe pas sur les **machines Windows** surveillées.
